@@ -1,0 +1,12 @@
+panel_dimension: '/path/to/PanelDim.csv'
+sample_dimension:  ['/path/to/sample_dim_info/', '/path/to/Diagnosis-Department.csv']
+time_dimension: ['2015-01-01', '2022-12-31']
+run_dimension: ["/path/to/run_info/", "/path/to/runs_lab.xlsx"]
+instrument_dimension: '/path/to/InstrumentDim.csv'
+reagent_dimension: '/path/to/data/ReagentDim.csv'
+turn_dimension: 20
+read_dimension: 2
+extraction_qc:  "/path/to/extraction_qc.csv"
+bioinfo_analysis_qc: ["/path/to/sample_info", "/path/to/fastqc_info", "/path/to/coverage_info"]
+library_qc: ["path/to/spreadsheets/LibraryData_MiSeq.csv", "/path/to/spreadsheets/LibraryData_NextSeq.csv"]
+sequencing_qc: "path/to/sequencing_info/"
